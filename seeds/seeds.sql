@@ -22,13 +22,13 @@ VALUES
 
   INSERT INTO roles (job_title, salary)
 VALUES
-("FOH server", "10.00"),
-("FOH bartender", "5.00"),
-("FOH host", "15.00"),
-("FOH expo","15.00"),
-("FOH manager","50,000.00"),
-("BOH cook", "18.00"),
-("BOH prep", "13.00"),
-("BOH dish", "12.50"),
-("BOH custodial","12.50"),
-("BOH manager/chef","60,000.00");
+("FOH server", "10"),
+("FOH bartender", "5"),
+("FOH host", "15"),
+("FOH expo", "15"),
+("FOH manager", "24"),
+("BOH cook", "18"),
+("BOH prep", "13"),
+("BOH dish", "12"),
+("BOH custodial", "12"),
+("BOH manager/chef", "28");
