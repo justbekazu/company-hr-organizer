@@ -9,8 +9,8 @@ const inquirer = require(inquirer);
              // Your MySQL username,
              user: 'root',
              // Your MySQL password
-             password: 'alexander0718',
-             database: 'company-hr-organizer',
+             password: '12345vandy',
+             database: 'companyOrganizer',
           },
            console.log('Connected to the company HR database.')
          );
