@@ -4,7 +4,8 @@
   "description": "organizer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
     "console.table": "^0.10.0",
     "inquirer": "^8.0.0",
     "mssql2": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }

@@ -1,24 +1,25 @@
 use companyOrganizer;
 
-INSERT INTO employees (first_name, last_name)
+INSERT INTO employees (first_name, last_name, roles_id)
 VALUES
-  ('Ronald', 'Firbank'),
-  ('Virginia', 'Woolf'),
-  ('Piers', 'Gaveston'),
-  ('Charles', 'LeRoi'),
-  ('Katherine', 'Mansfield'),
-  ('Dora', 'Carrington'),
-  ('Edward', 'Bellamy'),
-  ('Montague', 'Summers'),
-  ('Octavia', 'Butler'),
-  ('Unica', 'Zurn');
+  ('Ronald', 'Firbank', 2),
+  ('Virginia', 'Woolf', 1),
+  ('Piers', 'Gaveston', 3),
+  ('Charles', 'LeRoi', 5),
+  ('Katherine', 'Mansfield', 6),
+  ('Dora', 'Carrington', 2),
+  ('Edward', 'Bellamy', 9),
+  ('Montague', 'Summers', 4),
+  ('Octavia', 'Butler', 7),
+  ('Unica', 'Zurn', 8),
+  ('bobo', 'fet', 10);
 
   INSERT INTO departments (department)
 VALUES
 ("FOH management"),
 ("BOH management"),
 ("FOH staff"),
-("BOHstaff");
+("BOH staff");
 
   INSERT INTO roles (job_title, salary)
 VALUES
