@@ -1,27 +1,15 @@
 use companyOrganizer;
 
-INSERT INTO employees (first_name, last_name, roles_id)
-VALUES
-  ('Ronald', 'Firbank', 2),
-  ('Virginia', 'Woolf', 1),
-  ('Piers', 'Gaveston', 3),
-  ('Charles', 'LeRoi', 5),
-  ('Katherine', 'Mansfield', 6),
-  ('Dora', 'Carrington', 2),
-  ('Edward', 'Bellamy', 9),
-  ('Montague', 'Summers', 4),
-  ('Octavia', 'Butler', 7),
-  ('Unica', 'Zurn', 8),
-  ('bobo', 'fet', 10);
 
   INSERT INTO departments (department)
 VALUES
 ("FOH management"),
 ("BOH management"),
 ("FOH staff"),
-("BOH staff");
+("BOH staff"),
+("Owner/GM");
 
-  INSERT INTO roles (job_title, salary)
+  INSERT INTO roles (job_title, salary, departments_id)
 VALUES
 ("FOH server", "10",3),
 ("FOH bartender", "5",3),
@@ -32,4 +20,22 @@ VALUES
 ("BOH prep", "13", 4),
 ("BOH dish", "12", 4),
 ("BOH custodial", "12", 4),
-("BOH manager/chef", "28", 2);
+("BOH manager/chef", "28", 2),
+("FOH and BOH", "0", 5);
+
+
+
+INSERT INTO employees (first_name, last_name, roles_id, manager_id)
+VALUES
+  ('Ronald', 'Firbank', 2, 5),
+  ('Virginia', 'Woolf', 1, 5),
+  ('Piers', 'Gaveston', 3, 5),
+  ('Charles', 'LeRoi', 5, 12),
+  ('Katherine', 'Mansfield', 6,10),
+  ('Dora', 'Carrington', 2,5),
+  ('Edward', 'Bellamy', 9,10),
+  ('Montague', 'Summers', 4,5),
+  ('Octavia', 'Butler', 7,10),
+  ('Unica', 'Zurn', 8,10),
+  ('bobo', 'fet', 10, 12),
+  ('darth','vader',11);
