@@ -19,6 +19,7 @@
   "homepage": "https://github.com/justbekazu/company-hr-organizer#readme",
   "dependencies": {
     "console.table": "^0.10.0",
+    "express": "^4.17.1",
     "inquirer": "^8.0.0",
     "mssql2": "^3.3.1"
   },

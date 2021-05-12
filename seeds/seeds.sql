@@ -6,8 +6,8 @@ VALUES
 ("FOH management"),
 ("BOH management"),
 ("FOH staff"),
-("BOH staff"),
-("Owner/GM");
+("BOH staff");
+
 
   INSERT INTO roles (job_title, salary, departments_id)
 VALUES
@@ -20,8 +20,8 @@ VALUES
 ("BOH prep", "13", 4),
 ("BOH dish", "12", 4),
 ("BOH custodial", "12", 4),
-("BOH manager/chef", "28", 2),
-("FOH and BOH", "0", 5);
+("BOH manager/chef", "28", 2);
+
 
 
 
@@ -30,12 +30,11 @@ VALUES
   ('Ronald', 'Firbank', 2, 5),
   ('Virginia', 'Woolf', 1, 5),
   ('Piers', 'Gaveston', 3, 5),
-  ('Charles', 'LeRoi', 5, 12),
-  ('Katherine', 'Mansfield', 6,10),
-  ('Dora', 'Carrington', 2,5),
-  ('Edward', 'Bellamy', 9,10),
-  ('Montague', 'Summers', 4,5),
-  ('Octavia', 'Butler', 7,10),
-  ('Unica', 'Zurn', 8,10),
-  ('bobo', 'fet', 10, 12),
-  ('darth','vader',11);
+  ('Charles', 'LeRoi', 5, NULL),
+  ('Katherine', 'Mansfield', 6, 10),
+  ('Dora', 'Carrington', 2, 5),
+  ('Edward', 'Bellamy', 9, 10),
+  ('Montague', 'Summers', 4, 5),
+  ('Octavia', 'Butler', 7, 10),
+  ('Unica', 'Zurn', 8, 10),
+  ('bobo', 'fet', 10, NULL);
