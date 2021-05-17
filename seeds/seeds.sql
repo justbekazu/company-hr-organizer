@@ -2,7 +2,7 @@ use companyOrganizer;
 
 
   INSERT INTO departments (department)
-VALUES
+  VALUES
 ("FOH management"),
 ("BOH management"),
 ("FOH staff"),
@@ -38,3 +38,5 @@ VALUES
   ('Octavia', 'Butler', 7, 10),
   ('Unica', 'Zurn', 8, 10),
   ('bobo', 'fet', 10, NULL);
+
+ module.exports = roles;
